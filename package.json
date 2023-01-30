@@ -1,0 +1,13 @@
+{
+  "name": "emsdk-test",
+  "version": "1.0.0",
+  "description": "```\r emcc math.c -Os -s WASM=1 -s SIDE_MODULE=1 -o math.wasm\r ```",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server --port=8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
